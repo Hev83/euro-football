@@ -1,0 +1,44 @@
+.AboutEngland{
+    position: relative;
+}
+
+.AboutEngland img{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.AboutEngland .Overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.2;
+}
+
+/* About esess Section Start*/
+.about_esess{
+    margin: 150px auto;
+} 
+
+.about_esess img{
+    height: 500px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.about_esess h6{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about_esess h5{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.about_esess p{
+    font-size: 14px;
+}

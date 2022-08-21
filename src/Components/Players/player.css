@@ -1,0 +1,39 @@
+.PlayersComponent{
+    margin: 100px;
+}
+
+.PlayersComponent .content{
+    text-align: center;
+    margin: 70px auto;
+}
+
+.PlayersComponent .content h6{
+   font-size: 50px;
+   font-weight: 600px;
+}
+
+.PlayersComponent .content h6 span{
+    font-weight: 900;
+    font-size: 50px;
+    color: var(--main);
+}
+
+.PlayersComponent .content p{
+    font-size: 13px;
+}
+
+.PlayersComponent .box{
+    box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.4),  
+        inset 10px 10px 10px -10px rgba(0, 0, 0, 0.8);
+        padding: 20px;
+}
+
+.PlayersComponent .box:hover{
+    background: #000;
+    transform: scale(1.09);
+    cursor: pointer;
+}
+
+.PlayersComponent .box:hover img{
+    transform: scale(1.1);
+}
